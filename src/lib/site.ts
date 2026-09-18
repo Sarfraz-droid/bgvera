@@ -1,4 +1,4 @@
-export const siteName = 'RMBG Studio'
+export const siteName = 'bgvera'
 export const description = 'Remove image backgrounds in your browser. Keep your photos on your device, compare the result, and download a transparent PNG.'
 const configured = process.env.SITE_URL
 export const siteUrl = new URL(configured || 'http://localhost:3000').origin

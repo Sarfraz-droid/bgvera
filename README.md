@@ -1,4 +1,4 @@
-# RMBG Studio
+# bgvera
 
 Next.js App Router background-removal app. Images are processed on-device with Transformers.js and RMBG-1.4; only model files are downloaded. WebGPU is preferred, with a WASM fallback.
 
