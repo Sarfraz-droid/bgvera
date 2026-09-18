@@ -7,7 +7,7 @@ export const metadata: Metadata = {
  robots:{index:isPublicSite,follow:isPublicSite},
  openGraph:{type:'website',locale:'en_US',url:'/',siteName,title:'Keep the subject. Lose the background.',description,images:[{url:'/opengraph-image',width:1200,height:630,alt:'bgvera: private background removal'}]},
  twitter:{card:'summary_large_image',title:'bgvera | Private Background Remover',description,images:['/opengraph-image']},
- icons:{icon:'/favicon.svg'}, verification:{google:process.env.GOOGLE_SITE_VERIFICATION},
+ icons:{icon:{url:'/favicon.svg?v=bgvera',type:'image/svg+xml'}}, verification:{google:process.env.GOOGLE_SITE_VERIFICATION},
 }
 export const viewport:Viewport={themeColor:'#080909'}
 export default function RootLayout({children}:{children:React.ReactNode}) {return <html lang="en"><body><a href="#main" className="skip-link">Skip to content</a>{children}</body></html>}
