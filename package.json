@@ -33,6 +33,7 @@
     "@types/node": "^24.13.3",
     "@types/react": "^19.2.18",
     "@types/react-dom": "^19.2.7",
+    "critters": "^0.0.23",
     "oxlint": "^1.81.0",
     "typescript": "~6.0.2"
   },

@@ -1,9 +1,11 @@
 'use client'
 import { useRef, useState } from 'react'
+import dynamic from 'next/dynamic'
 import { AnimatePresence, motion, MotionConfig, useReducedMotion } from 'motion/react'
 import { ArrowRight, ArrowLeft, ScanLine, ShieldCheck, Image as ImageIcon } from 'lucide-react'
 import { AnimatedCutout } from '@/components/animated-cutout'
-import App from '@/App'
+
+const App = dynamic(() => import('@/App'), { ssr: false })
 
 export function HeroWorkspace() {
  const [open,setOpen]=useState(false)
